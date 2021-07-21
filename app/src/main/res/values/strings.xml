@@ -1,3 +1,62 @@
 <resources>
     <string name="app_name">AppTecnicos</string>
+    <string name="titulo_activity_actualizar_datos_tecnico">Actualizar Datos</string>
+    <string name="titulo_datos_suscripcion">Datos de suscripción</string>
+    <string name="membresia">Membresia mensual 10.00 S/.</string>
+    <string name="titulo_bienvenida">Bienvenido</string>
+    <string name="cerrarsesion">Cerrar sesión</string>
+    <string name="tecnicos">Técnicos cercanos</string>
+    <string name="distrito">Seleccionar Distrito</string>
+    <string name="opc1">Registro de clientes atendidos</string>
+    <string name="opc2">Datos de suscripción</string>
+    <string name="opcion2">Soluciones rápidas</string>
+    <string name="opcion1">Técnicos cercanos</string>
+    <string name="opcion3">Registro de técnicos solicitados</string>
+    <string name="salir">Salir</string>
+    <string name="nombre_usuario">Nombre de usuario</string>
+    <string name="icono_ajustes">Ajustes</string>
+
+    <string-array name="opciones">
+        <item>Lima</item>
+        <item>Ancon</item>
+        <item>Barranco</item>
+        <item>Breña</item>
+        <item>Carabayllo</item>
+        <item>Chorrillos</item>
+        <item>Comas</item>
+        <item>Chaclacayo</item>
+        <item>El agustino</item>
+        <item>Independencia</item>
+        <item>Jesús María</item>
+        <item>La Victoria</item>
+        <item>Lince</item>
+        <item>La Molina</item>
+        <item>Los Olivos</item>
+        <item>Chosica</item>
+        <item>Lurín</item>
+        <item>Miraflores</item>
+        <item>Magdalena del Mar</item>
+        <item>Pachacámac</item>
+        <item>Pucusana</item>
+        <item>Pueblo Libre</item>
+        <item>Puente Piedra</item>
+        <item>Punta hermosa</item>
+        <item>Punta Negra</item>
+        <item>Rímac</item>
+        <item>San Bartolo</item>
+        <item>San Borja</item>
+        <item>San Isidro</item>
+        <item>San Juan de Miraflores</item>
+        <item>San Juan de Lurigancho</item>
+        <item>San Luis</item>
+        <item>San Martin de Porres</item>
+        <item>San Miguel</item>
+        <item>Santa Anita</item>
+        <item>Santa María del Mar</item>
+        <item>Santa Rosa</item>
+        <item>Santiago de Surco</item>
+        <item>Surquillo</item>
+        <item>Villa el Salvador</item>
+        <item>Villa María del triunfo</item>
+    </string-array>
 </resources>

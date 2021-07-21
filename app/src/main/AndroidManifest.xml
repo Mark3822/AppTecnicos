@@ -2,23 +2,30 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.aplicacion.appTecnicos">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
+        android:configChanges="orientation|keyboardHidden"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:screenOrientation="portrait"
-        android:configChanges="orientation|keyboardHidden"
-        >
-        <activity android:name=".MainActivity">
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".ActualizarTecnicoActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".BienvenidaClienteActivity"></activity>
+        <activity android:name=".BienvenidaTecnicoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TecnicosCercanosActivity" />
+        <activity android:name=".ActualizarClienteActivity" />
+        <activity android:name=".ActualizarSuscripcionActivity" />
     </application>
 
 </manifest>
